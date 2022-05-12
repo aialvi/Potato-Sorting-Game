@@ -34,12 +34,35 @@
                 class="text-lg font-medium leading-6 text-gray-900"
               >
               </DialogTitle>
-
-              <img
-                width="600"
-                src="/images/certificate.png"
-                alt="Certificate of Completion"
-              />
+              <div class="flex flex-col items-center">
+                <img
+                  width="600"
+                  src="/images/certificate.png"
+                  alt="Certificate of Completion"
+                  class="mb-3"
+                />
+                <div>
+                  <ShareNetwork
+                    network="facebook"
+                    url="https://potato-sotato.vercel.app"
+                    title="Potato Sotato! Sort the Potatoes!"
+                    description="Sort the potatoes and save the world!"
+                    quote="Thanks for saving us - A random potato"
+                    hashtags="potatosotato"
+                  >
+                    <span
+                      class="text-cyan-700 m-5 text-center font-serif font-semibold no-underline"
+                      >Share</span
+                    ></ShareNetwork
+                  >
+                  <a
+                    class="text-yellow-700 m-5 text-center font-serif font-semibold no-underline"
+                    href="/images/certificate.png"
+                    download
+                    >Download</a
+                  >
+                </div>
+              </div>
             </DialogPanel>
           </TransitionChild>
         </div>

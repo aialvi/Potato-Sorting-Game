@@ -108,7 +108,7 @@ export default defineComponent({
 
     return {
       generateUsers() {
-        if (this.numberOfUsers >= 2 && this.numberOfUsers <= 100) {
+        if (this.numberOfUsers >= 20 && this.numberOfUsers <= 100) {
           store.commit("setUsers", Number(this.numberOfUsers));
           store.commit("setIsTimerRunning", true);
           this.$emit("update:isOpen", false);
