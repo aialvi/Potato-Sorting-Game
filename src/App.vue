@@ -1,10 +1,10 @@
-<script setup>
-import UserList from "./components/UserList.vue";
-</script>
-
 <template>
   <UserList />
 </template>
+
+<script setup>
+import UserList from "./components/UserList.vue";
+</script>
 
 <style>
 #app {
@@ -13,6 +13,6 @@ import UserList from "./components/UserList.vue";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 </style>
