@@ -37,7 +37,7 @@
 
               <img
                 width="600"
-                src="src/assets/images/certificate.png"
+                src="/images/certificate.png"
                 alt="Certificate of Completion"
               />
             </DialogPanel>
