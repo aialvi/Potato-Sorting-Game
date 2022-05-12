@@ -150,7 +150,8 @@ export default defineComponent({
         moment("00:00:00", "HH:mm:ss"),
         "seconds"
       );
-      return (state.users.length / timeInSeconds) * 100;
+      const score = (state.users.length / timeInSeconds) * 100;
+      return score > 100 ? 100 : score;
     },
   }),
 });
