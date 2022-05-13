@@ -108,13 +108,13 @@ export default defineComponent({
 
     return {
       generateUsers() {
-        if (this.numberOfUsers >= 20 && this.numberOfUsers <= 100) {
+        if (this.numberOfUsers >= 5 && this.numberOfUsers <= 100) {
           store.commit("setUsers", Number(this.numberOfUsers));
           store.commit("setIsTimerRunning", true);
           this.$emit("update:isOpen", false);
           this.numberOfUsers = "";
         } else {
-          this.error = "Please enter a number from 20 to 100";
+          this.error = "Please enter a number from 5 to 100";
         }
       },
     };
